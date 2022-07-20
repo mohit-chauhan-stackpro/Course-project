@@ -9,8 +9,4 @@ export class AppComponent {
   title = 'Course-project';
 
   loadedFeature='recipe';
-
-  onNavigate(feature:string){
-    this.loadedFeature=feature;
-  }
 }
