@@ -31,6 +31,9 @@ private recipes: Recipe[]=[
   getRecipes(){
     return this.recipes.slice();
   }
+  getRecipe(id:number){
+    return this.recipes[id];
+  }
 
   addIngredientsToShoppingList(ingredients:Ingredients[]){
     this.slService.addIngredients(ingredients)
